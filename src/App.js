@@ -1,20 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './Body.js';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Torgo</h2>
+          <h2>Name</h2>
         </div>
-      
-            <Body />
-        
-      </div>
+        test
+        </div>
     );
   }
 }
