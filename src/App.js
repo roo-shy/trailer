@@ -17,10 +17,8 @@ import './App.css';
        <div className="App">
          <div className="App-header">
            <img src={logo} className="App-logo" alt="logo" />
-           
          </div>
-         <p className="App-intro">
-        </p>
+         <p className="App-intro"></p>
          <RaisedButton label="Material UI" onClick={() => this.handleClick()} />
        </div>
        </MuiThemeProvider>
