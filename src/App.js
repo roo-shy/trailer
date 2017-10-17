@@ -1,19 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import RaisedButton from 'material-ui/RaisedButton';
+import {GridList, GridTile} from 'material-ui/GridList';
+import IconButton from 'material-ui/IconButton';
+import StarBorder from 'material-ui/svg-icons/toggle/star-border';
 import './App.css';
-import AddTodo from './containers/AddTodo'
-import TodoList from './containers/TodoList'
 
 const App = () => (
   
     <MuiThemeProvider>
-      <div>
-        <h1>Hey</h1>
-    {/* <AddTodo />
-    <TodoList /> */}
-    </div>
+        {/* <h1>Hey</h1> */}
+        <GridList>
+          <GridTile
+             actionPosition="left"
+             titlePosition="top"
+           >
+           </GridTile>
+         ))
+       </GridList>
   </MuiThemeProvider>
   
 )
