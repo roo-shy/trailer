@@ -8,14 +8,14 @@ import './App.css';
 const App = () => (
   
     <MuiThemeProvider>
-        {/* <h1>Hey</h1> */}
+        
         <GridList>
           <GridTile
              actionPosition="left"
              titlePosition="top"
            >
            </GridTile>
-         ))
+         <h1>Hey</h1>
        </GridList>
   </MuiThemeProvider>
   
