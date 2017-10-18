@@ -1,21 +1,35 @@
 import React from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {GridList, GridTile} from 'material-ui/GridList';
-import IconButton from 'material-ui/IconButton';
-import StarBorder from 'material-ui/svg-icons/toggle/star-border';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import AppBar from 'material-ui/AppBar';
 import './App.css';
+import {
+  red500, grey400, grey500, grey600, grey700,
+  transparent, lightWhite, white, darkWhite, lightBlack, black,
+} from 'material-ui/styles/colors';
+
+const muiTheme = getMuiTheme({
+  palette: {
+    backgroundColor: grey400,
+  },
+  appBar: {
+    height: 50,
+  },
+});
 
 const App = () => (
   
-    <MuiThemeProvider>
-        
+    <MuiThemeProvider muiTheme={muiTheme}>
         <GridList>
+          <AppBar
+            title="Title"
+            iconClassNameRight="muidocs-icon-navigation-expand-more"
+          />
           <GridTile
-             actionPosition="left"
              titlePosition="top"
            >
            </GridTile>
-         <h1>Hey</h1>
        </GridList>
   </MuiThemeProvider>
   
