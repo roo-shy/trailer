@@ -34,29 +34,5 @@ const App = () => (
   </MuiThemeProvider>
   
 )
-//  class App extends React.Component {
-//    
-//    handleClick = () => {
-//      console.log("pri");
-//    }
-//    
-//   render() {
-//     return (
-//       <MuiThemeProvider>
-//        <div className="App">
-//          <div className="App-header">
-//            <img src={logo} className="App-logo" alt="logo" />
-//          </div>
-//          <Paper zDepth={2}>
-//           <TextField hintText="Add todo" underlineShow={false} />
-//           <Divider />
-//         </Paper>
-//          <p className="App-intro"></p>
-//          <RaisedButton label="Material UI" onClick={() => this.handleClick()} />
-//        </div>
-//        </MuiThemeProvider>
-//     );
-//   }
-// }
 
 export default App;
